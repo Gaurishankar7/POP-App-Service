@@ -16,6 +16,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        let status = UserDefaults.standard.bool(forKey: "userlogin") ?? false
+        if status{
+            
+            let tmpvar = UserDefaults.standard.string(forKey: "restId")
+            let tmp2 = Int(tmpvar!)
+            restIDofRest = tmp2!
+            print("data is \(restIDofRest)")
+            
+            let testController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "HomeViewController") as! HomeViewController
+            let appDelegate = UIApplication.shared.delegate as! AppDelegate
+            appDelegate.window?.rootViewController = testController
+        }
+        
         return true
     }
 
