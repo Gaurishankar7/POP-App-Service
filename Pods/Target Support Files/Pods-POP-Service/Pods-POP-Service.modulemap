@@ -1,0 +1,6 @@
+framework module Pods_POP_Service {
+  umbrella header "Pods-POP-Service-umbrella.h"
+
+  export *
+  module * { export * }
+}
