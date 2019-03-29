@@ -8,5 +8,7 @@ target 'POP-Service' do
   # Pods for POP-Service
    pod 'Alamofire'
    pod 'SwiftyJSON'
+   pod 'Firebase/Core'
+   pod 'Firebase/Messaging'
 
 end
