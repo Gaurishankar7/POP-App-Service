@@ -13,3 +13,4 @@ var GVBaseURL = "http://182.73.184.62:443/api/"
 var GVImageBaseURL = "http://182.73.184.62:443"
 
 var restIDofRest = 0
+var fcmdeviceToken = ""

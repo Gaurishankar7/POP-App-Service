@@ -51,4 +51,12 @@ class HomeViewController: UIViewController, UICollectionViewDelegate, UICollecti
          self.present(vc, animated: true, completion: nil)
     }
     
+    @IBAction func BtnQRCode(_ sender: Any) {
+        let vc = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "QRReaderViewController")as! QRReaderViewController
+        self.present(vc, animated: true, completion: nil)
+    }
+    @IBAction func btnChefPressed(_ sender: Any) {
+        let vc = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "ChefViewController")as! ChefViewController
+        self.present(vc, animated: true, completion: nil)
+    }
 }

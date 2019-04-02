@@ -18,6 +18,11 @@
 		A56387CB224B787000003301 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = A56387CA224B786F00003301 /* background.png */; };
 		A56387CD224B815100003301 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56387CC224B815100003301 /* Constant.swift */; };
 		A56387CF224BC13F00003301 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56387CE224BC13F00003301 /* HomeViewController.swift */; };
+		A57B2DB5225370F900E1055E /* QRReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57B2DB4225370F900E1055E /* QRReaderViewController.swift */; };
+		A57B2DB722537C0400E1055E /* ChefViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57B2DB622537C0400E1055E /* ChefViewController.swift */; };
+		A57B2DB92253A42E00E1055E /* loader.png in Resources */ = {isa = PBXBuildFile; fileRef = A57B2DB82253A42E00E1055E /* loader.png */; };
+		A57B2DBB2253B68100E1055E /* AddEditChefViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57B2DBA2253B68100E1055E /* AddEditChefViewController.swift */; };
+		A5A1484622536B4B008465B5 /* qr-code.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A1484522536B4B008465B5 /* qr-code.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +40,11 @@
 		A56387CA224B786F00003301 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 		A56387CC224B815100003301 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		A56387CE224BC13F00003301 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A57B2DB4225370F900E1055E /* QRReaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRReaderViewController.swift; sourceTree = "<group>"; };
+		A57B2DB622537C0400E1055E /* ChefViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChefViewController.swift; sourceTree = "<group>"; };
+		A57B2DB82253A42E00E1055E /* loader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loader.png; sourceTree = "<group>"; };
+		A57B2DBA2253B68100E1055E /* AddEditChefViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditChefViewController.swift; sourceTree = "<group>"; };
+		A5A1484522536B4B008465B5 /* qr-code.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qr-code.png"; sourceTree = "<group>"; };
 		D062B8B7B41527F3934D70D6 /* Pods-POP-Service.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POP-Service.release.xcconfig"; path = "Pods/Target Support Files/Pods-POP-Service/Pods-POP-Service.release.xcconfig"; sourceTree = "<group>"; };
 		F313793C8E96D4FAE9734F29 /* Pods-POP-Service.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POP-Service.debug.xcconfig"; path = "Pods/Target Support Files/Pods-POP-Service/Pods-POP-Service.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -86,9 +96,14 @@
 				A56387BA224B750900003301 /* ViewController.swift */,
 				A56387CE224BC13F00003301 /* HomeViewController.swift */,
 				A530F25E224CEFF200BFE1E7 /* StatusChangeViewController.swift */,
+				A57B2DB4225370F900E1055E /* QRReaderViewController.swift */,
+				A57B2DB622537C0400E1055E /* ChefViewController.swift */,
+				A57B2DBA2253B68100E1055E /* AddEditChefViewController.swift */,
 				A56387CC224B815100003301 /* Constant.swift */,
 				A56387BC224B750900003301 /* Main.storyboard */,
 				A56387BF224B750B00003301 /* Assets.xcassets */,
+				A5A1484522536B4B008465B5 /* qr-code.png */,
+				A57B2DB82253A42E00E1055E /* loader.png */,
 				20F489B4224E4B6E006B0448 /* GoogleService-Info.plist */,
 				A56387CA224B786F00003301 /* background.png */,
 				A56387C1224B750B00003301 /* LaunchScreen.storyboard */,
@@ -171,6 +186,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A56387C3224B750B00003301 /* LaunchScreen.storyboard in Resources */,
+				A57B2DB92253A42E00E1055E /* loader.png in Resources */,
+				A5A1484622536B4B008465B5 /* qr-code.png in Resources */,
 				A56387CB224B787000003301 /* background.png in Resources */,
 				20F489B5224E4B6F006B0448 /* GoogleService-Info.plist in Resources */,
 				A56387C0224B750B00003301 /* Assets.xcassets in Resources */,
@@ -187,7 +204,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-POP-Service/Pods-POP-Service-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-POP-Service/Pods-POP-Service-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
 				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
@@ -204,7 +221,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-POP-Service/Pods-POP-Service-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-POP-Service/Pods-POP-Service-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		BBC4A1DF8D15A744BFC571BD /* [CP] Check Pods Manifest.lock */ = {
@@ -234,8 +251,11 @@
 			files = (
 				A56387BB224B750900003301 /* ViewController.swift in Sources */,
 				A56387B9224B750900003301 /* AppDelegate.swift in Sources */,
+				A57B2DB5225370F900E1055E /* QRReaderViewController.swift in Sources */,
+				A57B2DB722537C0400E1055E /* ChefViewController.swift in Sources */,
 				A56387CD224B815100003301 /* Constant.swift in Sources */,
 				A530F25F224CEFF200BFE1E7 /* StatusChangeViewController.swift in Sources */,
+				A57B2DBB2253B68100E1055E /* AddEditChefViewController.swift in Sources */,
 				A56387CF224BC13F00003301 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

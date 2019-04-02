@@ -70,7 +70,7 @@ DEPENDENCIES:
   - SwiftyJSON
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  https://github.com/cocoapods/specs.git:
     - Alamofire
     - Firebase
     - FirebaseAnalytics
@@ -100,4 +100,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 8f35b1695e571238b776c30c017bf31636dc726c
 
-COCOAPODS: 1.6.0.beta.1
+COCOAPODS: 1.5.3
