@@ -27,14 +27,14 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="next" enablesReturnKeyAutomatically="YES"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="x9a-7J-Iec">
                                 <rect key="frame" x="263" y="322" width="499" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="go" enablesReturnKeyAutomatically="YES"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9R7-gx-bEQ">
                                 <rect key="frame" x="451" y="405" width="123" height="54"/>
@@ -466,6 +466,9 @@
                                     <segment title="Male"/>
                                     <segment title="Female"/>
                                 </segments>
+                                <connections>
+                                    <action selector="segmentChangeGender:" destination="CXi-39-M5G" eventType="valueChanged" id="Zuf-Gv-zcY"/>
+                                </connections>
                             </segmentedControl>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3pe-0h-qX7">
                                 <rect key="frame" x="439" y="490" width="146" height="43"/>
@@ -475,11 +478,20 @@
                                 <state key="normal" title="Submit">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="btnSubmitPress:" destination="CXi-39-M5G" eventType="touchUpInside" id="Kfg-CQ-3jE"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="ecL-id-Oe0"/>
                     </view>
+                    <connections>
+                        <outlet property="imgChef" destination="ebC-t9-2qR" id="aYI-Pn-hQP"/>
+                        <outlet property="segmntGender" destination="H4m-aV-Tn3" id="me1-c6-bSg"/>
+                        <outlet property="txtName" destination="Bxa-KB-UAP" id="wxV-IA-3p9"/>
+                        <outlet property="txtPhoneNo" destination="TiE-Mo-Ahq" id="GEu-nJ-LSn"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4hY-94-Pfk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
