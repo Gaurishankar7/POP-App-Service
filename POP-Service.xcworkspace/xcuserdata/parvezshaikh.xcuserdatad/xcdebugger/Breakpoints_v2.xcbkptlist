@@ -10,7 +10,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "POP-Service/ViewController.swift"
-            timestampString = "575911446.338644"
+            timestampString = "576147170.679958"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "32"
@@ -26,7 +26,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "POP-Service/QRReaderViewController.swift"
-            timestampString = "575973367.2719671"
+            timestampString = "576159518.715169"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "12"
@@ -42,7 +42,7 @@
                   moduleName = "POP-Service"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Gaurishankar/Practice/POP-Service/POP-Service/QRReaderViewController.swift"
-                  timestampString = "575980963.12356"
+                  timestampString = "576160289.87637"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -57,7 +57,7 @@
                   moduleName = "POP-Service"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Gaurishankar/Practice/POP-Service/POP-Service/QRReaderViewController.swift"
-                  timestampString = "575980963.1269571"
+                  timestampString = "576160289.878513"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "14"
@@ -72,7 +72,7 @@
                   moduleName = "POP-Service"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Gaurishankar/Practice/POP-Service/POP-Service/QRReaderViewController.swift"
-                  timestampString = "575980963.130566"
+                  timestampString = "576160289.880514"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -87,7 +87,7 @@
                   moduleName = "POP-Service"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Gaurishankar/Practice/POP-Service/POP-Service/QRReaderViewController.swift"
-                  timestampString = "575980963.133108"
+                  timestampString = "576160289.882372"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "14"
@@ -102,7 +102,7 @@
                   moduleName = "POP-Service"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Gaurishankar/Practice/POP-Service/POP-Service/QRReaderViewController.swift"
-                  timestampString = "575980963.136423"
+                  timestampString = "576160289.884452"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -119,7 +119,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "POP-Service/QRReaderViewController.swift"
-            timestampString = "575973367.285823"
+            timestampString = "576159518.715237"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "21"
@@ -135,7 +135,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "POP-Service/QRReaderViewController.swift"
-            timestampString = "575973367.286153"
+            timestampString = "576159518.715287"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "60"
@@ -151,7 +151,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "POP-Service/QRReaderViewController.swift"
-            timestampString = "575973367.286465"
+            timestampString = "576159518.715333"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "24"
@@ -167,7 +167,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "POP-Service/QRReaderViewController.swift"
-            timestampString = "575973367.286764"
+            timestampString = "576159518.715377"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "50"
@@ -183,7 +183,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "POP-Service/QRReaderViewController.swift"
-            timestampString = "575973367.287061"
+            timestampString = "576159518.715423"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "70"
@@ -199,7 +199,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "POP-Service/QRReaderViewController.swift"
-            timestampString = "575973367.287353"
+            timestampString = "576159518.715476"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "78"
@@ -215,7 +215,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "POP-Service/QRReaderViewController.swift"
-            timestampString = "575973367.287648"
+            timestampString = "576159518.715516"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "86"
@@ -231,12 +231,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "POP-Service/AddEditChefViewController.swift"
-            timestampString = "576001009.5081151"
+            timestampString = "576160252.490165"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "38"
             endingLineNumber = "38"
-            landmarkName = "imageTapped(tapGestureRecognizer:)"
+            landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -247,7 +247,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "POP-Service/AddEditChefViewController.swift"
-            timestampString = "576001009.5086761"
+            timestampString = "576160252.490742"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "40"
@@ -263,12 +263,299 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "POP-Service/AddEditChefViewController.swift"
-            timestampString = "576001009.508958"
+            timestampString = "576160252.491129"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "43"
             endingLineNumber = "43"
             landmarkName = "imageTapped(tapGestureRecognizer:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "POP-Service/AddEditChefViewController.swift"
+            timestampString = "576160252.491492"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "188"
+            endingLineNumber = "188"
+            landmarkName = "requestWith(endUrl:imageData:parameters:onCompletion:onError:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Alamofire.SessionManager.MultipartFormDataEncodingResult) -&gt; () in POP_Service.AddEditChefViewController.requestWith(endUrl: Swift.String, imageData: Swift.Optional&lt;Foundation.Data&gt;, parameters: Swift.Dictionary&lt;Swift.String, Any&gt;, onCompletion: Swift.Optional&lt;(Swift.Optional&lt;SwiftyJSON.JSON&gt;) -&gt; ()&gt;, onError: Swift.Optional&lt;(Swift.Optional&lt;Swift.Error&gt;) -&gt; ()&gt;) -&gt; ()"
+                  moduleName = "POP-Service"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Gaurishankar/Practice/POP-Service/POP-Service/AddEditChefViewController.swift"
+                  timestampString = "576160289.939514"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "188"
+                  endingLineNumber = "188"
+                  offsetFromSymbolStart = "118">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Alamofire.SessionManager.MultipartFormDataEncodingResult) -&gt; () in POP_Service.AddEditChefViewController.requestWith(endUrl: Swift.String, imageData: Swift.Optional&lt;Foundation.Data&gt;, parameters: Swift.Dictionary&lt;Swift.String, Any&gt;, onCompletion: Swift.Optional&lt;(Swift.Optional&lt;SwiftyJSON.JSON&gt;) -&gt; ()&gt;, onError: Swift.Optional&lt;(Swift.Optional&lt;Swift.Error&gt;) -&gt; ()&gt;) -&gt; ()"
+                  moduleName = "POP-Service"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Gaurishankar/Practice/POP-Service/POP-Service/AddEditChefViewController.swift"
+                  timestampString = "576160289.941402"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "188"
+                  endingLineNumber = "188"
+                  offsetFromSymbolStart = "146">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "POP-Service/AddEditChefViewController.swift"
+            timestampString = "576160252.491843"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "189"
+            endingLineNumber = "189"
+            landmarkName = "requestWith(endUrl:imageData:parameters:onCompletion:onError:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Alamofire.SessionManager.MultipartFormDataEncodingResult) -&gt; () in POP_Service.AddEditChefViewController.requestWith(endUrl: Swift.String, imageData: Swift.Optional&lt;Foundation.Data&gt;, parameters: Swift.Dictionary&lt;Swift.String, Any&gt;, onCompletion: Swift.Optional&lt;(Swift.Optional&lt;SwiftyJSON.JSON&gt;) -&gt; ()&gt;, onError: Swift.Optional&lt;(Swift.Optional&lt;Swift.Error&gt;) -&gt; ()&gt;) -&gt; ()"
+                  moduleName = "POP-Service"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Gaurishankar/Practice/POP-Service/POP-Service/AddEditChefViewController.swift"
+                  timestampString = "576160289.946086"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "189"
+                  endingLineNumber = "189"
+                  offsetFromSymbolStart = "222">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Any&gt;) -&gt; () in closure #2 (Alamofire.SessionManager.MultipartFormDataEncodingResult) -&gt; () in POP_Service.AddEditChefViewController.requestWith(endUrl: Swift.String, imageData: Swift.Optional&lt;Foundation.Data&gt;, parameters: Swift.Dictionary&lt;Swift.String, Any&gt;, onCompletion: Swift.Optional&lt;(Swift.Optional&lt;SwiftyJSON.JSON&gt;) -&gt; ()&gt;, onError: Swift.Optional&lt;(Swift.Optional&lt;Swift.Error&gt;) -&gt; ()&gt;) -&gt; ()"
+                  moduleName = "POP-Service"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Gaurishankar/Practice/POP-Service/POP-Service/AddEditChefViewController.swift"
+                  timestampString = "576160289.948171"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "190"
+                  endingLineNumber = "190"
+                  offsetFromSymbolStart = "60">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "POP-Service/AddEditChefViewController.swift"
+            timestampString = "576160252.4921941"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "191"
+            endingLineNumber = "191"
+            landmarkName = "requestWith(endUrl:imageData:parameters:onCompletion:onError:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "POP-Service/AddEditChefViewController.swift"
+            timestampString = "576160252.49254"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "192"
+            endingLineNumber = "192"
+            landmarkName = "requestWith(endUrl:imageData:parameters:onCompletion:onError:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "POP-Service/AddEditChefViewController.swift"
+            timestampString = "576160252.4928989"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "176"
+            endingLineNumber = "176"
+            landmarkName = "requestWith(endUrl:imageData:parameters:onCompletion:onError:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "POP_Service.AddEditChefViewController.requestWith(endUrl: Swift.String, imageData: Swift.Optional&lt;Foundation.Data&gt;, parameters: Swift.Dictionary&lt;Swift.String, Any&gt;, onCompletion: Swift.Optional&lt;(Swift.Optional&lt;SwiftyJSON.JSON&gt;) -&gt; ()&gt;, onError: Swift.Optional&lt;(Swift.Optional&lt;Swift.Error&gt;) -&gt; ()&gt;) -&gt; ()"
+                  moduleName = "POP-Service"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Gaurishankar/Practice/POP-Service/POP-Service/AddEditChefViewController.swift"
+                  timestampString = "576160289.9618469"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "176"
+                  endingLineNumber = "176"
+                  offsetFromSymbolStart = "761">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.MultipartFormData) -&gt; () in POP_Service.AddEditChefViewController.requestWith(endUrl: Swift.String, imageData: Swift.Optional&lt;Foundation.Data&gt;, parameters: Swift.Dictionary&lt;Swift.String, Any&gt;, onCompletion: Swift.Optional&lt;(Swift.Optional&lt;SwiftyJSON.JSON&gt;) -&gt; ()&gt;, onError: Swift.Optional&lt;(Swift.Optional&lt;Swift.Error&gt;) -&gt; ()&gt;) -&gt; ()"
+                  moduleName = "POP-Service"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Gaurishankar/Practice/POP-Service/POP-Service/AddEditChefViewController.swift"
+                  timestampString = "576160289.963527"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "177"
+                  endingLineNumber = "177"
+                  offsetFromSymbolStart = "82">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "POP-Service/StatusChangeViewController.swift"
+            timestampString = "576160252.493264"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "btnInpregressPress(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "POP-Service/StatusChangeViewController.swift"
+            timestampString = "576160252.493335"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "btnInpregressPress(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "POP-Service/AddEditChefViewController.swift"
+            timestampString = "576160252.493396"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "186"
+            endingLineNumber = "186"
+            landmarkName = "requestWith(endUrl:imageData:parameters:onCompletion:onError:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "POP_Service.AddEditChefViewController.requestWith(endUrl: Swift.String, imageData: Swift.Optional&lt;Foundation.Data&gt;, parameters: Swift.Dictionary&lt;Swift.String, Any&gt;, onCompletion: Swift.Optional&lt;(Swift.Optional&lt;SwiftyJSON.JSON&gt;) -&gt; ()&gt;, onError: Swift.Optional&lt;(Swift.Optional&lt;Swift.Error&gt;) -&gt; ()&gt;) -&gt; ()"
+                  moduleName = "POP-Service"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Gaurishankar/Practice/POP-Service/POP-Service/AddEditChefViewController.swift"
+                  timestampString = "576160289.976138"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "186"
+                  endingLineNumber = "186"
+                  offsetFromSymbolStart = "562">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.MultipartFormData) -&gt; () in POP_Service.AddEditChefViewController.requestWith(endUrl: Swift.String, imageData: Swift.Optional&lt;Foundation.Data&gt;, parameters: Swift.Dictionary&lt;Swift.String, Any&gt;, onCompletion: Swift.Optional&lt;(Swift.Optional&lt;SwiftyJSON.JSON&gt;) -&gt; ()&gt;, onError: Swift.Optional&lt;(Swift.Optional&lt;Swift.Error&gt;) -&gt; ()&gt;) -&gt; ()"
+                  moduleName = "POP-Service"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Gaurishankar/Practice/POP-Service/POP-Service/AddEditChefViewController.swift"
+                  timestampString = "576160289.978249"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "186"
+                  endingLineNumber = "186"
+                  offsetFromSymbolStart = "1808">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Alamofire.SessionManager.MultipartFormDataEncodingResult) -&gt; () in POP_Service.AddEditChefViewController.requestWith(endUrl: Swift.String, imageData: Swift.Optional&lt;Foundation.Data&gt;, parameters: Swift.Dictionary&lt;Swift.String, Any&gt;, onCompletion: Swift.Optional&lt;(Swift.Optional&lt;SwiftyJSON.JSON&gt;) -&gt; ()&gt;, onError: Swift.Optional&lt;(Swift.Optional&lt;Swift.Error&gt;) -&gt; ()&gt;) -&gt; ()"
+                  moduleName = "POP-Service"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Gaurishankar/Practice/POP-Service/POP-Service/AddEditChefViewController.swift"
+                  timestampString = "576160289.97991"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "187"
+                  endingLineNumber = "187"
+                  offsetFromSymbolStart = "64">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "POP-Service/AddEditChefViewController.swift"
+            timestampString = "576160286.803226"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "183"
+            endingLineNumber = "183"
+            landmarkName = "requestWith(endUrl:imageData:parameters:onCompletion:onError:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

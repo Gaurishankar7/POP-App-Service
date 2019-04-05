@@ -6,7 +6,7 @@ target 'POP-Service' do
   use_frameworks!
 
   # Pods for POP-Service
-   pod 'Alamofire'
+    pod 'Alamofire', '~> 4.0'
    pod 'SwiftyJSON'
    pod 'Firebase/Core'
    pod 'Firebase/Messaging'

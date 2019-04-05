@@ -345,6 +345,9 @@
                                 <state key="normal" title="IN Progress">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="btnInpregressPress:" destination="1G8-Uy-GLq" eventType="touchUpInside" id="D7A-vd-djj"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZPY-Hk-bM1">
                                 <rect key="frame" x="778" y="695" width="226" height="53"/>

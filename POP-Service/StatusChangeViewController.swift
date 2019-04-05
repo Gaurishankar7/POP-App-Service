@@ -33,5 +33,15 @@ class StatusChangeViewController: UIViewController, UITableViewDataSource {
         return cell
     }
    
-
+    @IBAction func btnInpregressPress(_ sender: Any) {
+        
+        let viewforchef = UIView(frame: CGRect(x: 40, y: 40, width: UIScreen.main.bounds.width-80, height: UIScreen.main.bounds.height-80))
+//        viewforchef.alpha = 0.5
+        viewforchef.backgroundColor = UIColor.white
+        view.addSubview(viewforchef)
+        
+        
+        
+    }
+    
 }

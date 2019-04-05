@@ -33,6 +33,8 @@ class AddEditChefViewController: UIViewController, UIImagePickerControllerDelega
         
         txtName.delegate = self
         txtPhoneNo.delegate = self
+        
+        
     }
     
     @objc func imageTapped(tapGestureRecognizer: UITapGestureRecognizer)
@@ -99,7 +101,31 @@ class AddEditChefViewController: UIViewController, UIImagePickerControllerDelega
 //        let URL = "http://yourserviceurl/"
         let image = UIImage(named: "loader.png")
         
+        requestWith(endUrl: url, imageData: image?.pngData(), parameters: parameters)
+//        Alamofire.upload(MultipartFormData:{
+//
+//            for (key, value) in parameters {
+//                MultipartFormData.append(value.data(using: String.Encoding.utf8)!, withName: key)
+//            }
+//
+//            MultipartFormData.append(UIImageJPEGRepresentation(UIImage(named: "loader.png")!, 1)!, withName: "photos[1]", fileName: "swift_file.jpeg", mimeType: "image/jpeg")
+//
+//
+//        }, to: ""){ (result) in
+//            switch result{
+//            case .success(let uploade, _, _):
+//                upload.responceJSON{ response in
+//                    print(response.result.value)
+//                }
+//            case .failure(let encodingError): break
+//                print(encodingError)
+//
+//            }
+//
+//        }
         
+        
+      
         
 //        Alamofire.upload(.POST, URL, multipartFormData: {
 //            multipartFormData in
@@ -137,6 +163,44 @@ class AddEditChefViewController: UIViewController, UIImagePickerControllerDelega
             
             
     }
+    
+    func requestWith(endUrl: String, imageData: Data?, parameters: [String : Any], onCompletion: ((JSON?) -> Void)? = nil, onError: ((Error?) -> Void)? = nil){
+        
+//        let url = GVBaseURL + "chef/addchef" /* your API url */
+        let url = "http://192.168.1.164:8181/api/chef/addchef"
+        let headers: HTTPHeaders = [
+            /* "Authorization": "your_access_token",  in case you need authorization header */
+            "Content-type": "multipart/form-data"
+        ]
+        
+        Alamofire.upload(multipartFormData: { (multipartFormData) in
+            for (key, value) in parameters {
+                multipartFormData.append("\(value)".data(using: String.Encoding.utf8)!, withName: key as String)
+            }
+            
+            if let data = imageData{
+                multipartFormData.append(data, withName: "image", fileName: "image.png", mimeType: "image/png")
+                print(multipartFormData)
+            }
+            
+        }, usingThreshold: UInt64.init(), to: url, method: .post, headers: headers) { (result) in
+            switch result{
+            case .success(let upload, _, _):
+                upload.responseJSON { response in
+                    print("Succesfully uploaded")
+                    if let err = response.error{
+                        onError?(err)
+                        return
+                    }
+                    onCompletion?(nil)
+                }
+            case .failure(let error):
+                print("Error in upload: \(error.localizedDescription)")
+                onError?(error)
+            }
+        }
+    }
+    
     
     
     
