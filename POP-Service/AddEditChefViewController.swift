@@ -18,6 +18,8 @@ class AddEditChefViewController: UIViewController, UIImagePickerControllerDelega
     
     @IBOutlet weak var txtPhoneNo: UITextField!
     @IBOutlet weak var segmntGender: UISegmentedControl!
+
+    var imgFromCamera: UIImage? = nil
     
     var gender = "Male"
     
@@ -59,6 +61,7 @@ class AddEditChefViewController: UIViewController, UIImagePickerControllerDelega
         })
         
         imgChef.image = image
+        imgFromCamera = image
         imgChef.clipsToBounds = true
         print(image)
     }
@@ -99,75 +102,19 @@ class AddEditChefViewController: UIViewController, UIImagePickerControllerDelega
         print(url)
         
 //        let URL = "http://yourserviceurl/"
-        let image = UIImage(named: "loader.png")
+//        let image = UIImage(named: "qr-code.png")
+        let image = imgFromCamera
         
         requestWith(endUrl: url, imageData: image?.pngData(), parameters: parameters)
-//        Alamofire.upload(MultipartFormData:{
-//
-//            for (key, value) in parameters {
-//                MultipartFormData.append(value.data(using: String.Encoding.utf8)!, withName: key)
-//            }
-//
-//            MultipartFormData.append(UIImageJPEGRepresentation(UIImage(named: "loader.png")!, 1)!, withName: "photos[1]", fileName: "swift_file.jpeg", mimeType: "image/jpeg")
-//
-//
-//        }, to: ""){ (result) in
-//            switch result{
-//            case .success(let uploade, _, _):
-//                upload.responceJSON{ response in
-//                    print(response.result.value)
-//                }
-//            case .failure(let encodingError): break
-//                print(encodingError)
-//
-//            }
-//
-//        }
-        
-        
-      
-        
-//        Alamofire.upload(.POST, URL, multipartFormData: {
-//            multipartFormData in
-//            
-//        
-//            
-//            if let imageData = UIImageJPEGRepresentation(image, 0.6) {
-//                multipartFormData.appendBodyPart(data: imageData, name: "image", fileName: "file.png", mimeType: "image/png")
-//            }
-//            
-//            for (key, value) in parameters {
-//                multipartFormData.appendBodyPart(data: value.dataUsingEncoding(NSUTF8StringEncoding)!, name: key)
-//            }
-//        }, encodingCompletion: {
-//            encodingResult in
-//            
-//            switch encodingResult {
-//            case .Success(let upload, _, _):
-//                print("s")
-//                upload.responseJSON {
-//                    response in
-//                    print(response.request)  // original URL request
-//                    print(response.response) // URL response
-//                    print(response.data)     // server data
-//                    print(response.result)   // result of response serialization
-//                    
-//                    if let JSON = response.result.value {
-//                        print("JSON: \(JSON)")
-//                    }
-//                }
-//            case .Failure(let encodingError):
-//                print(encodingError)
-//            }
-//        })
+
             
             
     }
     
     func requestWith(endUrl: String, imageData: Data?, parameters: [String : Any], onCompletion: ((JSON?) -> Void)? = nil, onError: ((Error?) -> Void)? = nil){
         
-//        let url = GVBaseURL + "chef/addchef" /* your API url */
-        let url = "http://192.168.1.164:8181/api/chef/addchef"
+        let url = GVBaseURL + "chef/addchef" /* your API url */
+//        let url = "http://192.168.1.164:8080/api/chef/addchef"
         let headers: HTTPHeaders = [
             /* "Authorization": "your_access_token",  in case you need authorization header */
             "Content-type": "multipart/form-data"
@@ -179,7 +126,7 @@ class AddEditChefViewController: UIViewController, UIImagePickerControllerDelega
             }
             
             if let data = imageData{
-                multipartFormData.append(data, withName: "image", fileName: "image.png", mimeType: "image/png")
+                multipartFormData.append(data, withName: "chefImage", fileName: "image.jpg", mimeType: "image/png")
                 print(multipartFormData)
             }
             
@@ -187,7 +134,8 @@ class AddEditChefViewController: UIViewController, UIImagePickerControllerDelega
             switch result{
             case .success(let upload, _, _):
                 upload.responseJSON { response in
-                    print("Succesfully uploaded")
+                     print("Succesfully uploaded")
+//                    print(response.success.chefId)
                     if let err = response.error{
                         onError?(err)
                         return

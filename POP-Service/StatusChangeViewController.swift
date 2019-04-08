@@ -40,6 +40,11 @@ class StatusChangeViewController: UIViewController, UITableViewDataSource {
         viewforchef.backgroundColor = UIColor.white
         view.addSubview(viewforchef)
         
+        let lblChefName = UILabel(frame: CGRect(x: 50, y: 20, width: 150, height: 50))
+        lblChefName.text = "Accepted by:"
+        viewforchef.addSubview(lblChefName)
+        
+        
         
         
     }

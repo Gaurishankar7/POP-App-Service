@@ -88,6 +88,17 @@ class ChefViewController: UIViewController, UITableViewDataSource, UITableViewDe
     func tableView(_ tableView: UITableView, editActionsForRowAt indexPath: IndexPath) -> [UITableViewRowAction]? {
         let delete = UITableViewRowAction(style: .destructive, title: "Delete") { (action, indexPath) in
             // delete item at indexPath
+            var dict = self.arrRes[indexPath.row]
+            
+            Alamofire.request(GVBaseURL + "chef/deletechef/\(dict["chefId"]!)", method: .delete ).responseJSON { (responseData) -> Void in
+                if((responseData.result.value) != nil) {
+                    let swiftyJsonVar = JSON(responseData.result.value!)
+                    print(swiftyJsonVar)
+                        self.arrRes.remove(at: indexPath.row)
+                        self.tblChefDetail.reloadData()
+                }
+            }
+            
         }
         
         let share = UITableViewRowAction(style: .normal, title: "edit") { (action, indexPath) in
